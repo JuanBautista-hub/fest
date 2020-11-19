@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Festival del chocolate</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ingresa un correo electrónico valido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="contactform/cataform.php"  method="post">
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Correo</label>
+                            <input type="email" class="form-control" name="correo" id="recipient-name" placeholder="Correo electronico" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <input type="submit" name="submit" class="btn btn-primary"></input>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header">
+        <div class="container-fluid">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="#intro" class="scrollto">FESTIVAL DEL CHOCOLATE</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="index.html">Inicio</a></li>
+                    <li><a href="#about">Historia</a></li>
+                    <li><a href="#expo">Expositores</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#turismo-container">Turismo</a></li>
+                    <li><a href="live.html">Live</a></li>
+                    <li><a href="Inscripcion.html">Registro</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- #header -->
+
+    <!--==========================
+    Intro Section
+  ============================-->
+    <section id="intro">
+        <div class="intro-container">
+            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+                <ol class="carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>10 Festival del chocolate</h2>
+                                <p>16 de diciembre del 2020 virtual cupos limitados </p>
+                                <a href="Inscripcion.html" class="btn-get-started scrollto">Registrarme ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>Conferencias</h2>
+                                <p>uo minus id quod mst, omnis dolor repellendus. Temporibus autem quibusdam et aut
+                                    officiis debitis aut.</p>
+                                <a href="#featured-services" class="btn-get-started scrollto">Registrarme ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>Talleres</h2>
+                                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                    voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                                <a href="#featured-services" class="btn-get-started scrollto">Registrarme ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>Catas</h2>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                                    magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+                                <a href="#featured-services" class="btn-get-started scrollto">Registrarme ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>Degustaciones</h2>
+                                <p>Lorem ipsum dolor sd do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.</p>
+                                <a href="#featured-services" class="btn-get-started scrollto">Registrarme ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section><!-- #intro -->
+
+    <main id="main">
+
+
+
+        <!--==========================
+      About Us Section
+    ============================-->
+        <section id="about" class="section-history">
+            <div class="container">
+                <h3 class="title">HISTORIA DEL CHOCOLATE</h3>
+
+                <div class="media">
+                    <div class="media-body">
+
+                        <div class="container">
+
+                           <p> El estado de Tabasco desde la época prehispánica ha sido un importante productor de cacao,
+                            de hecho, los olmecas fueron los primeros humanos en saborear una bebida a base de cacao.
+                            Hacia el año 600 a.C., los Mayas de Tabasco fabricaban con ese fruto, una bebida amarga que
+                            llamaban xocoatl, y celebraban un festival anual en abril, para honrar al dios del cacao, Ek
+                            Chuah, un evento que incluía sacrificios de perros y otros animales con marcas pintadas de
+                            chocolate, ofrendas de cacao, plumas, incienso e intercambio de regalos. En forma semi
+                            líquida y líquida, el chocolate solía ser bebida preferida de las realezas, que lo consumían
+                            en vasos especiales (jícaras). Igualmente era considerado (con razón) un alimento
+                            tonificante o energizante, que se podía consumir mezclado en una masa de harina de maíz
+                            mezclada con chiles y miel.</p>
+
+
+
+                            <div class="row">
+                                <div class="col-md-8"><p>El xocolatl era muy apreciado entre las culturas prehispánicas, ya
+                                    que era considerado como un reconstituyente que daba fuerza y despertaba el apetito
+                                    sexual. Por otra parte, las semillas de cacao también se utilizaban como monedas de
+                                    cambio, costumbre que perduró mucho después de la colonización de los españoles. De
+                                    hecho Hernán Cortés pagaba a sus soldados con cacao.
+
+                                    Gracias a las rutas comerciales, los mayas de Tabasco, extendieron el consumo del
+                                    xocolatl a toda Mesoamérica desde la Península de Yucatán y Soconusco hasta
+                                    Centroamérica, llegando incluso al Altiplano Central, donde fue muy apreciado por la
+                                    civilización azteca. Los cacaos más estimados eran los provenientes de la provincia
+                                    de Tabasco, por sus semillas grandes, oleaginosas y de buen sabor.
+                                    En 1519, los soldados de Hernán Cortés probaron por primera vez el chocolate en
+                                    Potonchán, población maya del cacicazgo de Tabasco y la describieron como amarga y
+                                    picante. En la época colonial, los aristócratas mexicanos hacían cocer el cacao con
+                                    agua y para endulzarlo, le agregaban miel silvestre, aromatizándolo con un poco de
+                                    vainilla, mientras que la gente del pueblo le agregaba atole de maíz para hacerlo
+                                    más nutritivo.
+                                    Debido a su delicioso sabor y a su alto valor nutritivo, en el año de 1528 Hernán
+                                    Cortés regresa a España con un gran cargamento de cacao, siendo consumido como
+                                    energizante, al principio solo por los nobles de la corte, por ser escaso y de alto
+                                    valor. Es hasta 1615 cuando se inicia la expansión del consumo del chocolate en
+                                    Europa, al ser introducido a Francia, en 1646 a Alemania, y en 1657 a Inglaterra.</p>
+                                </div>
+                                <div class="col-md-4"> <img src="img/cacao.webp" height="400px;" width="350px"
+                                        class="ml-3" alt="..."></div>
+                            </div>
+
+
+
+
+                        <p>En la actualidad, el estado de Tabasco es el primer productor de Cacao en México, y cuenta
+                            con la denominación de origen del llamado Cacao Grijalva, reconocido como uno de los mejores
+                            del mundo. De hecho, el chocolate tabasqueño es considerado de los mejores del mundo.
+                            El Festival del Chocolate es un evento anual que se realiza desde el año 2010 en la ciudad
+                            de Villahermosa, capital del estado de Tabasco, en México, y es considerado uno de los
+                            festivales de chocolate más importantes, y forma parte de la red de festivales gastronómicos
+                            y turísticos que ofrece el estado de Tabasco, conformada además por el Festival del Ostión y
+                            el Festival del queso artesanal.</p>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="row about-cols"></div>
+
+
+
+            </div>
+
+
+        </section><!-- #about -->
+
+
+
+        <!--==========================
+      Portfolio Section
+    ============================-->
+        <section id="expo" class="section-bg" style="background-color: chocolate;">
+            <div class="container">
+
+                <header class="section-header">
+                    <h3 class="section-title">Expositores</h3>
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">Todos</li>
+                            <li data-filter=".filter-chocolateros">Chocolateros</li>
+                            <li data-filter=".filter-comida">comida</li>
+                            <li data-filter=".filter-vino">vino</li>
+                            <li data-filter=".filter-web">Degustaciones</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="">
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-chocolateros wow fadeInUp">
+                        <div class="portfolio-wrap">
+                            <div class="card bm-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/aciendalaluz.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hacienda la luz</h5>
+                                            <p class="card-text">Más de 14,000 turistas al año visitan Hacienda La Luz
+                                                para admirar las plantaciones de cacao, árboles frutales, flores
+                                                tropicales, exposición de herramientas y utensilios relacionados con el
+                                                cacao y chocolate prehispánicos.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://localhost/frontend/Chocolate-para-degustar" target="_blank" class="btn btn-success">Comprar</a>
+                                                <a href="" class="f"><img src="img/globe-solid.svg" widht="35px" height="35px"></img></a>
+
+
+                                                <a href="" class="fan"> <i class="fa fa-facebook"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-chocolateros wow fadeInUp"
+                        data-wow-delay="0.1s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/aciendacholula.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hacienda Cholula</h5>
+                                            <p class="card-text">Esta propiedad alberga a la Fábrica de Chocolate El
+                                                Chontal, la cual fue fundada en 1948 por Juan Riveroll y su esposa
+                                                Dolores Vizcaíno, con el propósito de tener un lugar para mejorar el
+                                                precio del cacao que ellos mismos producían en la finca; por lo que
+                                                comenzaron a producir chocolate en forma rústica.
+
+                                            </p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://localhost/frontend/Chocolate-para-degustar" target="_blank" class="btn btn-success">Comprar</a>
+                                                <a href="" class="f"><img src="img/globe-solid.svg" widht="35px" height="35px"></img></a>
+
+
+                                                <a href="" class="fan"> <i class="fa fa-facebook"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-chocolateros wow fadeInUp"
+                        data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/aciendajesusmaria.jpg" target="_blank" class="card-img" width="100px"
+                                            height="250px" alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hacienda Jesús María </h5>
+                                            <p class="card-text">Fábrica de Chocolates Cacep que se distingue por tener
+                                                el proceso continuo integral de producción de derivados del cacao,
+                                                además de ser la única en la Ruta del Cacao que produce chocolate
+                                                golosina y una gran variedad de productos a base de la materia prima
+                                                procesada.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://localhost/frontend/Chocolate-para-degustar" target="_blank" class="btn btn-success">Comprar</a>
+                                                <a href="" class="f"><img src="img/globe-solid.svg" widht="35px" height="35px"></img></a>
+
+
+                                                <a href="" class="fan"> <i class="fa fa-facebook"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Comida -->
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-comida wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/descarga.jpeg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">El eden</h5>
+                                            <p class="card-text">Platillos mexicanos a la carta o en bufé en una casona
+                                                clásica con cuadros de arte y música de mariachis.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://localhost/frontend/Chocolate-para-degustar" target="_blank" class="btn btn-success">Comprar</a>
+                                                <a href="" class="f"><img src="img/globe-solid.svg" widht="35px" height="35px"></img></a>
+
+
+                                                <a href="" class="fan"> <i class="fa fa-facebook"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- vinos -->
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/VINALICE.png" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">VIÑA DE LICEAGA</h5>
+                                            <p class="card-text">“Queremos que nuestros visitantes disfruten Viña de
+                                                Liceaga y que lo hagan suyo que vivan sus mejores experiencias en
+                                                nuestra vinícola, es por eso que cada día compartimos lo que hacemos y
+                                                amamos, regalando momentos de alegría y acompañándonos con una copa de
+                                                buen vino”.
+
+
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://localhost/frontend/Chocolate-para-degustar" target="_blank"  class="btn btn-success">Comprar</a>
+                                                <a href="" class="f"><img src="img/globe-solid.svg" widht="35px" height="35px"></img></a>
+
+
+                                                <a href="" class="fan"> <i class="fa fa-facebook"></i></a></p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section><!-- #portfolio -->
+
+
+
+        <section id="eventos" class="section-bg">
+            <div class="container">
+
+                <header class="section-header">
+                    <h3 class="section-title">Eventos</h3>
+                    
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">Todos</li>
+                            <li data-filter=".filter-cata">Catas</li>
+                            <li data-filter=".filter-charlas">Charlas</li>
+                            <li data-filter=".filter-taller">Talleres</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="col-lg-12 col-md-8 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/about-bg.jpg" class="card-img" width="100px" height="200px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ing.Vicente Gutiérrez Cacep</h5>
+                                            <p class="card-text">De semillas de cacao en diferentes variedades
+                                                <br>Lugar:Explanada Olmeca 
+                                                <br>Fecha: 05 de diciembre del 2020</p>
+                                                    Compartiré mis "tips" de experto personales sobre las temperaturas ideales del servicio y almacenaje de vino. También hablaremos de su creación.
+                                                    Pensado para que entres con seguridad, a gusto y sin miedo en el mundo de expertos de vino para DISFRUTAR.
+                                            <p class="card-text" style="text-align: right;">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#exampleModal"
+                                                    data-whatever="@fat">Registrarme</button>
+                                            </p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-8 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/about-bg.jpg" class="card-img" width="100px" height="200px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Amado Suárez/UAG</h5>
+                                            <p class="card-text">Vino y Chocolate
+                                            <br>Lugar:Explanada Olmeca 
+                                            <br>Fecha: 05 de diciembre del 2020</p>
+                                                Compartiré mis "tips" de experto personales sobre las temperaturas ideales del servicio y almacenaje de vino. También hablaremos de su creación.
+                                                Pensado para que entres con seguridad, a gusto y sin miedo en el mundo de expertos de vino para DISFRUTAR. <p class="card-text" style="text-align: right;">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#exampleModal"
+                                                    data-whatever="@fat">Registrarme</button>
+                                            </p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-8 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/about-bg.jpg" class="card-img" width="100px" height="200px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Karla Soledad Sala Reyes</h5>
+                                            <p class="card-text">De vino, crema y licor de cacao
+                                                <br>Lugar:Explanada Olmeca 
+                                                <br>Fecha: 05 de diciembre del 2020</p>
+                                                    Compartiré mis "tips" de experto personales sobre las temperaturas ideales del servicio y almacenaje de vino. También hablaremos de su creación.
+                                                    Pensado para que entres con seguridad, a gusto y sin miedo en el mundo de expertos de vino para DISFRUTAR.</p>
+                                            <p class="card-text" style="text-align: right;">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#exampleModal"
+                                                    data-whatever="@fat">Registrarme</button>
+                                            </p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-8 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/about-bg.jpg" class="card-img" width="100px" height="200px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ing.Hector Silva Sanchez</h5>
+                                            <p class="card-text">De vino, crema y licor de CATA; De cerveza de cacao y
+                                                chocolate
+                                                <br>Lugar:Explanada Olmeca 
+                                            <br>Fecha: 05 de diciembre del 2020</p>
+                                               <br> Compartiré mis "tips" de experto personales sobre las temperaturas ideales del servicio y almacenaje de vino. También hablaremos de su creación.
+                                                Pensado para que entres con seguridad, a gusto y sin miedo en el mundo de expertos de vino para DISFRUTAR. </p>
+                                            <p class="card-text" style="text-align: right;">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#exampleModal"
+                                                    data-whatever="@fat">Registrarme</button>
+                                            </p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-8 portfolio-item filter-vino wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/about-bg.jpg" class="card-img" width="100px" height="200px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rogelio Pedraza</h5>
+                                            <p class="card-text">Innovación y técnicas para desarrollar bebidas de cacao
+                                                <br>Lugar:Explanada Olmeca 
+                                            <br>Fecha: 05 de diciembre del 2020</p>
+                                                Compartiré mis "tips" de experto personales sobre las temperaturas ideales del servicio y almacenaje de vino. También hablaremos de su creación.
+                                                Pensado para que entres con seguridad, a gusto y sin miedo en el mundo de expertos de vino para DISFRUTAR.
+                                            <p class="card-text" style="text-align: right;">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#exampleModal"
+                                                    data-whatever="@fat">Registrarme</button>
+                                            </p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+</div>
+</div>
+        </section>
+
+
+
+
+        <section id="turismo-container " class="section-bg">
+
+            <div class="container">
+
+                <header class="section-header">
+                    <h3 class="section-title">Recorridos Turisticos</h3>
+                </header>
+
+                <div class="row turismo-container">
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta cacao.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">La Ruta del Chocolate permite disfrutar de una deliciosa y aromática aventura percibiendo los diversos olores y sabores de los productos derivados del cacao. Al recorrer esta interesante ruta en la que viven Mayas Chontales, se conocerá un atractivo sitio arqueológico construido con ladrillos de barro cocido así como antiguas haciendas cacaoteras y escenarios de laguna, playas y río de gran belleza.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                              </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta olmeca zoque.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">La ruta Olmeca Zoque es un recorrido caracterizado por el contacto con la selva tropical y vestigios arqueológicos con los yacimientos de La Venta y Malpasito, donde olmecas y zoques dejaron huella de sus civilizaciones.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta pantanos.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">Una de las zonas más impactantes de Tabasco, la Ruta Pantanos comprende un área natural protegida, la Reserva de la Biósfera de Pantanos de Centla, actualmente maravilla natural de México, así como otros atractivos naturales y la degustación de la gastronomía típica de la región</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank"class="btn btn-success">Tour</a>
+                                          </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta rio  maya.jpg" class="card-img" width="100px"
+                                            height="250px" alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">Ríos Mayas impulsará una ruta integrada por siete pequeñas rutas y múltiples micro rutas, con el fin de detonar tres centros logísticos multimodales y distribuidores turísticos ubicados en Tenosique, Frontera, Centla y Villahermosa y al menos otros cinco subcentros.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                      </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta sierra.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">Entre los primeros sitios que puedes visitar si lo que buscas es practicar algo de espelología es la Gruta de las Canicas, ubicada cerca de Teapa, en la cual se encuentran pequeñas esferas hechas de capas de calcita. Para visitar este lugar es necesario contactar un guía especializado y llevar el equipo adecuado.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta villahermosa.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">Tabasco es una de las treinta y dos entidades federativas que conforman los Estados Unidos Mexicanos. Localizado en el Golfo de México, el Estado de Tabasco, es famoso por sus colosales cabezas olmecas, gigantescas esculturas con más de treinta siglos de antigüedad. Se localiza en el sureste de México, y cuenta con 191 de los 11 593 km de la costa del país. Es conocido por sus altos niveles de humedad y por una intensa vegetación tropical como resultado de la misma. ¡Conócenos!  </p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 portfolio-item filter-turistico wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/ruta yokot.jpg" class="card-img" width="100px" height="250px"
+                                            alt="...">
+
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">La Cultura Tabasqueña en la Ruta Biji Yokot’ an
+                                                Si no sabes que hacer en Tabaco, te sugerimos realizar la Ruta Biji Yokot’ an, en este ruta podrás tener un acercamiento más profundo con la cultura tabasqueña a través de su forma de vivir, la gastronomía y las artesanías.</p>
+                                            <p class="card-text1" style="text-align: right;">
+                                                <a href="http://www.findglocal.com/MX/Villahermosa/1574087112876000/AMAV-Tabasco" target="_blank" class="btn btn-success">Tour</a>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!-- #portfolio -->
+
+        <!--==========================
+      Team Section
+    ============================-->
+
+
+        <!--==========================
+      Contact Section
+    ============================-->
+        <section id="contact" class="section-bg wow fadeInUp" style="background-color: chocolate;">
+            <div class="container">
+
+                <div class="section-header">
+                    <h3>Contacto</h3>
+
+                </div>
+
+                <div class="row contact-info">
+
+                    <div class="col-md-4">
+                        <div class="contact-address">
+                            <i class="ion-ios-location-outline"></i>
+                            <h3>Ubicación</h3>
+                            <address>Paseo Usumacinta #1504 Piso 1
+
+                                Plaza Río, Col. Tabasco 2000, C.P. 86035
+
+                                Villahermosa, Tabasco, MX.</address>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="contact-phone">
+                            <i class="ion-ios-telephone-outline"></i>
+                            <h3>Numero de Teléfono</h3>
+                            <p><a href="tel:+155895548855">(993) 187 1300</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="contact-email">
+                            <i class="ion-ios-email-outline"></i>
+                            <h3>Correo electrónico</h3>
+                            <p><a href="mailto:info@example.com">joseantonionieves@tabasco.gob.mx</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form">
+                    <div id="sendmessage">Envianos tu mensaje te atenderemos en breve. Gracias!</div>
+                    <div id="errormessage"></div>
+                    <form action="contactform/contactoform.php" method="post" role="form" class="contactForm">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="nombre" class="form-control" id="name"
+                                    placeholder="Nombre completo" data-rule="minlen:10"
+                                    data-msg="Ingresa tu nombre completo" required />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" name="correo" id="email"
+                                    placeholder="Correo electrónico" data-rule="email"
+                                    data-msg="Por favor ingresa tu correo electrónico" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Telefono id="subject" placeholder="Telefono"
+                                data-rule="minlen:4" data-msg="Ingresa los 8 digitos" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="mensaje" rows="5" data-rule="required"
+                                data-msg="Ingresa un mensaje" placeholder="Mensaje"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+                    </form>
+                </div>
+
+            </div>
+        </section><!-- #contact -->
+
+    </main>
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <h3>Festival del chocolate</h3>
+                      
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Opciones</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-right"></i> <a href="#">Inicio</a></li>
+                            <li><i class="ion-ios-arrow-right"></i> <a href="#about">Historia</a></li>
+                            <li><i class="ion-ios-arrow-right"></i> <a href="Inscripcion.html">Registro</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contacto</h4>
+                        <p>
+                            Paseo Usumacinta #1504 Piso 1
+
+                            Plaza Río, Col. Tabasco 2000, C.P. 86035
+
+                            Villahermosa, Tabasco, MX. <br>
+                            <strong>Telefono:</strong>(993) 187 1300<br>
+                            <strong>Email:</strong>joseantonionieves@tabasco.gob.mx<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Historia</h4>
+                        <p>Evento de alto nivel donde se dan cita chocolatiers y conocedores que imparten talleres y
+                            conferencias, teniendo como común denominador la exaltación de la figura principal del
+                            mismo: El chocolate.
+                            Este encuentro ha sido enmarcado con la tradición cacaotera y chocolatera que posee el
+                            estado de Tabasco, así como por los atractivos turísticos que giran entorno a éste, como lo
+                            es la denominada Ruta del Cacao.</p>
+                      
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>Creado por imedianaranja</strong>
+            </div>
+            <div class="credits">
+
+            </div>
+        </div>
+    </footer><!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
